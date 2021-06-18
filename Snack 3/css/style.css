@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+}
+
+.center {
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.output {
+    width: 100%;
+}
+
+.center span {
+    font-size: 22px;
+}
+
+ul:first-child {
+    margin-top: 20px;
+}
+
+li {
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    border: 1px solid black;
+    width: calc(100%/3);
+    display: inline-block;
+}
